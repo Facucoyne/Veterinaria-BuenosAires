@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Nuestros Servicios</title>
+    <link rel="stylesheet" href="./../css/estillos.css">
+    <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.3/font/bootstrap-icons.css">
+    <script defer src="./../js/main.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+</head>
+<body>
+    <header>
+        <img class="logo" src="./../img/cuidado-animal (1).png" alt="">
+        <button id="abrir" class="abrir-menu"><i class="bi bi-list"></i></button>
+        <nav class="nav" id="nav">
+            <button class="cerrar-menu" id="cerrar"><i class="bi bi-x"></i></button>
+            <ul class="nav-list">
+                <li><a href="./../index.html">Inicio</a></li>
+                <li><a href="./quienes-somos.html">Quiénes somos</a></li>
+                <li><a href="./servicios.html">Servicios</a></li>
+                <li><a href="./contacto.html">Contacto</a></li>
+                </ul>
+
+            </ul>
+        </nav>
+    </header>
+
+    <div class="Texto-Principal">
+        <h2>Nuestros Servicios</h2>
+
+    </div>
+
+
+    <section>
+        <div class="container-card">
+            <div class="card">
+                <img src="./../img/katzen-impfung-768x512.jpg" alt="">
+                <div class="card-content">
+                    <h4>Vacunación</h4>
+                <p>° Medicos a domicilios</p>
+                <p>° Descuentos en medicamentos</p>
+                <button onclick="Vacunacion()" class="buttonX">Comprar</button>
+                        </div>
+
+            </div>
+
+            <div class="card">
+                <img src="./../img/internacion.jpg" alt="internacion">
+                <div class="card-content">
+                    <h4>Internación</h4>
+                <p>° Medicos a domicilios</p>
+                <p>° Descuentos en medicamentos</p>
+                <button onclick="Internacion()"  class="buttonX">Comprar</button>
+                        </div>
+
+            </div>
+
+            <div class="card">
+                <img src="./../img/katzen-impfung-768x512.jpg" alt="">
+                <div class="card-content">
+                    <h4>Peluqueria</h4>
+                <p>° Medicos a domicilios</p>
+                <p>° Descuentos en medicamentos</p>
+                <button onclick="Peluqueria()" class="buttonX">Comprar</button>
+                        </div>
+
+            </div>
+
+        </div>
+    </section>
+    
+<footer>
+    <div class="footer-col">
+        <h4>Tienda</h4>
+        <ul>
+            <li><a href="#">teams</a></li>
+            <li><a href="#">advertising</a></li>
+            <li><a href="#">talent</a></li>
+        </ul>
+    </div>
+    <div class="footer-col">
+        <h4>Ayuda</h4>
+        <ul>
+            <li><a href="#">technology</a></li>
+            <li><a href="#">science</a></li>
+            <li><a href="#">professional</a></li>
+            
+        </ul>
+    </div>
+    <div class="footer-col">
+        <h4>Compañia</h4>
+        <ul>
+            <li><a href="#">about</a></li>
+            <li><a href="#">legal</a></li>
+            <li><a href="#">contact us</a></li>
+        </ul>
+    </div>
+    <div class="footer-col">
+        <h4>follow us</h4>
+        <div class="links">
+            <a href="#"><i class="fab fa-linkedin-in"></i></a>
+            <a href="#"><i class="fab fa-facebook-f"></i></a>
+            <a href="#"><i class="fab fa-twitter"></i></a>
+            <a href="#"><i class="fab fa-instagram"></i></a>
+        </div>
+    </div>
+</footer>
+    
+    
+</body>
+</html>
