@@ -621,8 +621,8 @@ header {
         font-family: Arial, Helvetica, sans-serif;
         
     }
-/* 
-    button{
+
+    .Btn-form{
         border: none;
         background-color: #ff7417;
         padding: 8px 30px;
@@ -631,7 +631,7 @@ header {
         color: #2f4f4f;
         cursor: pointer;
         
-    }*/
+    }
     
 
     /*Media query Foorter*/
