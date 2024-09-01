@@ -668,9 +668,10 @@ header {
     }
 
     /*Banner*/
-    @media screen and (max-width: 345px) {
+    @media screen and (max-width: 360px) {
         .container-banner{
             text-align: center;
+            
         }
         
     }
