@@ -109,6 +109,7 @@ header {
     font-size: 35px;
     font-weight: 400;
     
+    
 
 
 }
@@ -252,14 +253,15 @@ header {
 
 
 .buttonX{
-    display: inline-block;
-    padding: 9px 123px;
-    background-color: #0d6a62;
-    color: #fff;
-    border-radius: 4px;
-    text-decoration: none;
-    align-items: center;
-    transition:  0.4s ease;
+    border: none;
+    outline: 0;
+    padding: 12px;
+    color: white;
+    background-color: #000;
+    text-align: center;
+    cursor: pointer;
+    width: 100%;
+    font-size: 18px;
 }
 
 
@@ -668,9 +670,9 @@ header {
     }
 
     /*Banner*/
-    @media screen and (max-width: 360px) {
-        .container-banner{
-            text-align: center;
+    @media screen and (max-width: 450px) {
+        .container-banner h1{
+           text-align: center;
             
         }
         
@@ -733,3 +735,7 @@ header {
 
 
 }
+
+
+/*Servicios Button*/
+
