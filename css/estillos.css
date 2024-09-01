@@ -549,11 +549,13 @@ header {
         background-color: white;
     }
 
+    
     /*Contacto*/
 .body-style{
     background-color: #2f4f4f;
     padding: 1px;
 }
+
     .contact-box{
         width: 90%;
         margin-top: 50px;
@@ -619,7 +621,7 @@ header {
         font-family: Arial, Helvetica, sans-serif;
         
     }
-
+/* 
     button{
         border: none;
         background-color: #ff7417;
@@ -629,7 +631,7 @@ header {
         color: #2f4f4f;
         cursor: pointer;
         
-    }
+    }*/
     
 
     /*Media query Foorter*/
@@ -665,7 +667,13 @@ header {
         }
     }
 
-    
+    /*Banner*/
+    @media screen and (max-width: 344px) {
+        .container-banner{
+            text-align: center;
+        }
+        
+    }
 @media screen and (max-width: 768px){
     .wrapperSection{
         flex-direction: column;
